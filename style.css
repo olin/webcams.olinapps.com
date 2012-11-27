@@ -1,6 +1,3 @@
-/* Import Bootstrap styles. */
-@import "http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css";
-
 /* Fix the body width at 800px. */
 .container-fluid { max-width: 800px; margin-left: auto; margin-right: auto; }
 
