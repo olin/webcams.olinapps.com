@@ -1,10 +1,13 @@
-/* import bootstrap */
+/* Import Bootstrap styles. */
 @import "http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css";
 
-.container-fluid { max-width: 970px; margin-left: auto; margin-right: auto; }
+/* Fix the body width at 800px. */
+.container-fluid { max-width: 800px; margin-left: auto; margin-right: auto; }
 
-/* olinclubs.com */
+/* Footer for olinclubs.com */
 footer { margin: 40px 0 20px; text-align: center; color: #999; font-weight: bold; font-size: 16px; clear:; left;}
 footer a { color: inherit; }
 footer a:hover { color: black; }
 footer a b { color: #C26;}
+
+/*** ADD YOUR CODE BELOW ***/
