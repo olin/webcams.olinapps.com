@@ -3,95 +3,41 @@
 
 <html lang="en">
 	<head>
-		<title>Easy REST in JavaScript | remlib.org</title>
+		<title>My Cool Club | olinclubs.com</title>
 		<body>
-		<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/js/bootstrap.min.js"></script>
-		<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css" rel="stylesheet">
+		<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/js/bootstrap.min.js"></script>
+		<link href="style.css" rel="stylesheet">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-		<style>
-		.container-fluid { max-width: 970px; margin-left: auto; margin-right: auto; }
-		h2 { text-align: center; }
-		.description { font-size: 1.2em; line-height: 1.5; }
-		.instructions { margin: 15px 0; text-align: center; }
-		.instructions em { margin: 0 25px; color: #666; }
-		.instructions code { font-size: 16px; padding: 5px 15px; }
-		</style>
-
-		<link href="http://twitter.github.com/bootstrap/assets/js/google-code-prettify/prettify.css" type="text/css" rel="stylesheet" />
-		<script type="text/javascript" src="http://twitter.github.com/bootstrap/assets/js/google-code-prettify/prettify.js"></script>
 	</head>
 
-	<body onload="prettyPrint()">
+	<body>
 		<div class="navbar">
 		  <div class="navbar-inner">
 		  	<div class="container-fluid">
-			    <a class="brand" href="/">Rem</a>
+			    <a class="brand" href="/">My Cool Club</a>
 
 				 	<ul class="nav">
 					  <li class="active"><a href="/">Home</a></li>
-					  <li><a href="http://github.com/tcr/rem-js">Github</a></li>
+					  <li><a href="/contact/">Contact</a></li>
 					</ul>
 			 	</div>
 		 	</div>
 		</div>
 
 		<div class="container-fluid">
+			<h1>This is a title of your club page.</h1>
 
 			<div class="row-fluid">
 				<div class="span6">
-					<h1>Rem. <span>REST easy.</span></h1>
-
-					<p class="description">Rem is a library for accessing any REST API simply. Whether using a third-party service or your own API, Rem only needs a few lines of code to move from reading API docs to making requests. And with support for popular services and authentication built-in, you might never again need a dedicated API library.</p>
+					<p>This is a column on the left.<p>
 				</div>
 
 				<div class="span6">
-					<br>
-					<pre class="prettyprint linenums languague-js">
-var rem = require('rem');
-var gh = rem('github.com');
-
-rem.console(gh, {
-  scope: ["user", "repo"]
-}, function (err, user) {
-  user('user').get(function (err, profile) {
-    console.log(profile);
-  });
-});</pre>
-				</div>
-			</div>
-
-			<div class="instructions">
-				<code class="language-js">npm install rem</code> <em>or</em>
-				<a href="https://github.com/tcr/rem-js/tree/master/lib" class="btn btn-large">Download rem.js</a> <em>or</em>
-				<a href="https://github.com/tcr/rem-js" class="btn btn-large">View on Github</a>
-			</div>
-
-			<hr>
-
-			<div class="row-fluid">
-				<div class="span6">
-					<h2>The web as an API.</h2>
-					<p>As easy as importing a module.</p>
-				</div>
-
-				<div class="span6">
-					<h2>Support for popular services.</h2>
-					<p>Facebook, Twitter, Dropbox, and more, right out of the box. Adding your own service is as easy as JSON.</p>
-				</div>
-			</div>
-
-			<div class="row-fluid">
-				<div class="span6">
-					<h2>Client and server side.</h2>
-					<p>Works on Node.js and in the browser. JSONP and CORS supported by default.</p>
-				</div>
-
-				<div class="span6">
-					<h2>Great for command line scripting.</h2>
-					<p>Need to backup your Tweets? Move photos between social networks? Rem makes scripting your own accounts simple.</p>
+					<p>This is a column on the right!</p>
 				</div>
 			</div>
 		</div>
+
+		<footer>Hosted by <a href="http://olinapps.com/">olin<b>apps</b>.com</a></footer>
 	</body>
 </html>
